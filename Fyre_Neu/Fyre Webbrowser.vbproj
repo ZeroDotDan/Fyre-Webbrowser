@@ -6,9 +6,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{134A1230-527D-4420-B27B-A6899BCEB66D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Fyre_Neu.My.MyApplication</StartupObject>
-    <RootNamespace>Fyre_Neu</RootNamespace>
-    <AssemblyName>Fyre_Neu</AssemblyName>
+    <StartupObject>FyreWebbrowser.My.MyApplication</StartupObject>
+    <RootNamespace>FyreWebbrowser</RootNamespace>
+    <AssemblyName>Fyre Webbrowser</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
@@ -21,7 +21,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>Fyre_Neu.xml</DocumentationFile>
+    <DocumentationFile>Fyre Webbrowser.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -31,7 +31,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>Fyre_Neu.xml</DocumentationFile>
+    <DocumentationFile>Fyre Webbrowser.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>

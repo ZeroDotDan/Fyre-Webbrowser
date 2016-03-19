@@ -23,7 +23,6 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
-        Me.ProgressBar2 = New System.Windows.Forms.ProgressBar()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Button6 = New System.Windows.Forms.Button()
@@ -32,7 +31,6 @@ Partial Class Form1
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -42,16 +40,8 @@ Partial Class Form1
         Me.WebBrowser1.Location = New System.Drawing.Point(0, 34)
         Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
         Me.WebBrowser1.Name = "WebBrowser1"
-        Me.WebBrowser1.Size = New System.Drawing.Size(718, 325)
+        Me.WebBrowser1.Size = New System.Drawing.Size(718, 337)
         Me.WebBrowser1.TabIndex = 0
-        '
-        'ProgressBar2
-        '
-        Me.ProgressBar2.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.ProgressBar2.Location = New System.Drawing.Point(0, 359)
-        Me.ProgressBar2.Name = "ProgressBar2"
-        Me.ProgressBar2.Size = New System.Drawing.Size(718, 12)
-        Me.ProgressBar2.TabIndex = 2
         '
         'Panel1
         '
@@ -138,36 +128,22 @@ Partial Class Form1
         Me.Button1.Text = "< Back"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.SystemColors.Control
-        Me.Label1.Location = New System.Drawing.Point(-3, 358)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(39, 13)
-        Me.Label1.TabIndex = 4
-        Me.Label1.Text = "Label1"
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(718, 371)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.WebBrowser1)
         Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.ProgressBar2)
         Me.Name = "Form1"
         Me.Text = "Fyre Webbrowser - alpha-dev1"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents WebBrowser1 As WebBrowser
-    Friend WithEvents ProgressBar2 As ProgressBar
     Friend WithEvents Panel1 As Panel
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Button6 As Button
@@ -176,5 +152,4 @@ Partial Class Form1
     Friend WithEvents Button3 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
-    Friend WithEvents Label1 As Label
 End Class

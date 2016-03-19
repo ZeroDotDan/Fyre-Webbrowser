@@ -8,11 +8,11 @@ Imports System.Runtime.InteropServices
 
 ' Werte der Assemblyattribute überprüfen
 
-<Assembly: AssemblyTitle("Fyre_Neu")>
-<Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("Fyre_Neu")>
-<Assembly: AssemblyCopyright("Copyright ©  2016")>
+<Assembly: AssemblyTitle("Fyre Webbrowser")>
+<Assembly: AssemblyDescription("An light, fast and cool webbrowser.")>
+<Assembly: AssemblyCompany("Zerobyte Developments")>
+<Assembly: AssemblyProduct("Fyre Webbrowser")>
+<Assembly: AssemblyCopyright("Copyright © 2016 Zerobyte Developments")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
