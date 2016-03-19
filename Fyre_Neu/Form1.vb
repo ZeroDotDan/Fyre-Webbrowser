@@ -4,10 +4,6 @@
         Me.Text = "Fyre Webbrowser - alpha-dev1 - " & WebBrowser1.DocumentTitle
     End Sub
 
-    Private Sub WebBrowser1_ProgressChanged(sender As Object, e As WebBrowserProgressChangedEventArgs) Handles WebBrowser1.ProgressChanged
-
-    End Sub
-
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
         WebBrowser1.Navigate(TextBox1.Text)
     End Sub
@@ -38,5 +34,9 @@
 
     Private Sub WebBrowser1_Navigated(sender As Object, e As WebBrowserNavigatedEventArgs) Handles WebBrowser1.Navigated
         TextBox1.Text = e.Url.ToString
+    End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
     End Sub
 End Class
