@@ -1,6 +1,4 @@
 language: csharp
-solution: Fyre Webbrowser.sln
+solution: Fyre_Webbrowser.sln
 mono:
  - latest
-script:
-  - xbuild Fyre Webbrowser.sln
