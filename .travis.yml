@@ -2,3 +2,5 @@ language: csharp
 solution: Fyre Webbrowser.sln
 mono:
  - latest
+script:
+  - xbuild Fyre Webbrowser.sln
