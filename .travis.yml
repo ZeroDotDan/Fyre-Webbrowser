@@ -1,2 +1,4 @@
 language: csharp
 solution: Fyre Webbrowser.sln
+mono:
+ - latest
