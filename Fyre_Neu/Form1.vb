@@ -9,7 +9,8 @@
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        'Calls the Upgrade Browser class to upgrade to current user's IE version. 
+        WebBrowserHelper.FixBrowserVersion()
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
